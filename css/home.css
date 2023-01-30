@@ -221,7 +221,24 @@
         .form-group {
             overflow-x: hidden;
         }
+        #alert {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 93%;
+            padding: 5px;
+        }
+        #alert-contact {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 85%;
+            padding: 2px;
+        }
     }
+    /*Responsive*/
     
     .date {
         display: flex;
@@ -323,11 +340,10 @@
         box-sizing: border-box;
         width: 25.5%;
         padding: 1px 20px 1px 20px;
-        margin: 0 0 555px 0;
+        margin: -30px 0 20px 0;
         text-align: center;
         background-color: rgb(255, 0, 0);
         color: rgb(255, 255, 255);
-        position: absolute;
         border-radius: 5px;
     }
     
@@ -335,10 +351,9 @@
         box-sizing: border-box;
         width: 23%;
         padding: 1px 0 1px 0;
-        margin: 0 0 520px 0;
+        margin: -30px 0 20px 0;
         text-align: center;
         background-color: rgb(255, 0, 0);
         color: rgb(255, 255, 255);
-        position: absolute;
         border-radius: 5px;
     }
